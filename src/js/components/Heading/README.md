@@ -192,7 +192,7 @@ h1,h2,h3,h4
   
 **global.breakpoints**
 
-The possible breakpoints that could affect font-size and max-width Expects `object`.
+The possible breakpoints that could affect font-size and max-width. Expects `object`.
 
 Defaults to
 

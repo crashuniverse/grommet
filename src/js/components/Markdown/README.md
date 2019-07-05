@@ -15,7 +15,7 @@ import { Markdown } from 'grommet';
 
 Custom components and props to override html elements such as 'img'
       or 'pre'. By default 'a', 'p', 'img', and table elements are overriden
-      with grommet components
+      with grommet components.
 
 ```
 {

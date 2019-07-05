@@ -24,7 +24,7 @@ export const doc = Meter => {
       opacity: 'medium',
     }),
     round: PropTypes.bool
-      .description('Whether to round the line ends')
+      .description('Whether to round the line ends.')
       .defaultValue(false),
     size: PropTypes.oneOfType([
       PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge', 'full']),
@@ -68,7 +68,8 @@ export const doc = Meter => {
 
 export const themeDoc = {
   'global.edgeSize': {
-    description: 'The border-radius of the styled Meter. thickness, height and width of the Bar Meter, height of the Circle Meter.',
+    description:
+      'The border-radius of the styled Meter. thickness, height and width of the Bar Meter, height of the Circle Meter.',
     type: 'object',
     defaultValue: `{
         none: '0px',
@@ -111,4 +112,4 @@ export const themeDoc = {
     type: 'string | (props) => {}',
     defaultValue: undefined,
   },
-}
+};

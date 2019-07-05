@@ -179,7 +179,7 @@ Defaults to
 
 **video.captions.background**
 
-The caption background color of the video  Expects `string`.
+The caption background color of the video. Expects `string`.
 
 Defaults to
 

@@ -128,7 +128,7 @@ string
 
 **round**
 
-Whether to round the line ends
+Whether to round the line ends.
 
 ```
 boolean

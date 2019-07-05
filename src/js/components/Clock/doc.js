@@ -37,7 +37,7 @@ export const doc = Clock => {
       PropTypes.oneOf(['small', 'medium', 'large', 'xlarge']),
       PropTypes.string,
     ])
-      .description('Clock size')
+      .description('Clock size.')
       .defaultValue('medium'),
     time: PropTypes.string.description(
       `ISO8601 time or duration. For example: 'PT8H12M23S',
@@ -65,7 +65,7 @@ export const themeDoc = {
     defaultValue: '{ dark: light-2, light: dark-3 }',
   },
   'clock.analog.hour.shape': {
-    description: 'The shape of the hour hand',
+    description: 'The shape of the hour hand.',
     type: 'string',
     defaultValue: 'round',
   },
@@ -75,7 +75,7 @@ export const themeDoc = {
     defaultValue: '24px',
   },
   'clock.analog.hour.width': {
-    description: 'The thickness of the hour hand',
+    description: 'The thickness of the hour hand.',
     type: 'string',
     defaultValue: '8px',
   },
@@ -100,7 +100,7 @@ export const themeDoc = {
     defaultValue: '4px',
   },
   'clock.analog.second.color': {
-    description: 'The color of the seconds hand',
+    description: 'The color of the seconds hand.',
     type: 'string | { dark: string, light: string }',
     defaultValue: '{ dark: accent-1, light: accent-1 }',
   },
@@ -120,7 +120,7 @@ export const themeDoc = {
     defaultValue: '3px',
   },
   'clock.analog.size.medium': {
-    description: 'The whole size of the Analog clock',
+    description: 'The whole size of the Analog clock.',
     type: 'string',
     defaultValue: '96px',
   },

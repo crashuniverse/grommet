@@ -70,7 +70,7 @@ undefined
 
 **global.font.face**
 
-Custom font face declaration Expects `string | (props) => {}`.
+Custom font face declaration. Expects `string | (props) => {}`.
 
 Defaults to
 

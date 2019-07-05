@@ -26,7 +26,7 @@ export const doc = Calendar => {
     bounds: PropTypes.arrayOf(PropTypes.string)
       .description(`An array of two numbers indicating the limits on
         navigation in ISO8601 format`),
-    date: PropTypes.string.description('The selected date in ISO8601 format'),
+    date: PropTypes.string.description('The selected date in ISO8601 format.'),
     dates: PropTypes.arrayOf(
       PropTypes.oneOfType([
         PropTypes.string,

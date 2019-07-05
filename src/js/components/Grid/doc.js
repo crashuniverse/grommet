@@ -60,7 +60,7 @@ space in the column axis.`,
         start: PropTypes.arrayOf(PropTypes.number),
         end: PropTypes.arrayOf(PropTypes.number),
       }),
-    ).description('Area names and column,row coordinates.'),
+    ).description('Area names and column, row coordinates.'),
     columns: PropTypes.oneOfType([
       PropTypes.arrayOf(
         PropTypes.oneOfType([

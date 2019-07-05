@@ -71,7 +71,7 @@ export const doc = Drop => {
     ),
     plain: PropTypes.bool
       .description(
-        `Whether the drop element should have no background nor shadow`,
+        `Whether the drop element should have no background nor shadow.`,
       )
       .defaultValue(false),
   };
@@ -81,17 +81,17 @@ export const doc = Drop => {
 
 export const themeDoc = {
   'drop.maxHeight': {
-    description: 'The max height of the Drop container',
+    description: 'The max height of the Drop container.',
     type: 'string',
     defaultValue: undefined,
   },
   'global.drop.background': {
-    description: 'The background color of Drop',
+    description: 'The background color of Drop.',
     type: 'string | { dark: string, light: string }',
     defaultValue: '#ffffff',
   },
   'global.drop.border.radius': {
-    description: 'The corner radius',
+    description: 'The corner radius.',
     type: 'string',
     defaultValue: '0px',
   },
@@ -101,12 +101,12 @@ export const themeDoc = {
     defaultValue: undefined,
   },
   'global.drop.shadowSize': {
-    description: 'Elevated height of the Drop',
+    description: 'Elevated height of the Drop.',
     type: 'string',
     defaultValue: 'small',
   },
   'global.drop.zIndex': {
-    description: 'The stack order of the Drop',
+    description: 'The stack order of the Drop.',
     type: 'number',
     defaultValue: 20,
   },

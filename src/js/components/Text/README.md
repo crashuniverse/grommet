@@ -176,7 +176,7 @@ boolean
 
 **weight**
 
-Font weight
+Font weight.
 
 ```
 normal

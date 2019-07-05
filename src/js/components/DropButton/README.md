@@ -171,7 +171,7 @@ object
 
 **onClose**
 
-Callback for when the drop is closed
+Callback for when the drop is closed.
 
 ```
 function
@@ -179,7 +179,7 @@ function
 
 **onOpen**
 
-Callback for when the drop is opened
+Callback for when the drop is opened.
 
 ```
 function

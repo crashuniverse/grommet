@@ -62,7 +62,7 @@ is too long to all fit.`,
 
 export const themeDoc = {
   ...themeDocUtils.breakpointStyle(
-    'The possible breakpoints that could affect font-size and max-width',
+    'The possible breakpoints that could affect font-size and max-width.',
   ),
   ...themeDocUtils.edgeStyle('The possible sizes for margin.'),
   'heading.extend': {

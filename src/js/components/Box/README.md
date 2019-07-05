@@ -651,7 +651,7 @@ Defaults to
 
 **global.colors.border**
 
-The color of the border Expects `string | { dark: string, light: string }`.
+The color of the border. Expects `string | { dark: string, light: string }`.
 
 Defaults to
 

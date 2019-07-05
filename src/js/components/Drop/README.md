@@ -127,7 +127,7 @@ string
 
 **plain**
 
-Whether the drop element should have no background nor shadow
+Whether the drop element should have no background nor shadow.
 
 ```
 boolean
@@ -142,7 +142,7 @@ div
   
 **drop.maxHeight**
 
-The max height of the Drop container Expects `string`.
+The max height of the Drop container. Expects `string`.
 
 Defaults to
 
@@ -152,7 +152,7 @@ undefined
 
 **global.drop.background**
 
-The background color of Drop Expects `string | { dark: string, light: string }`.
+The background color of Drop. Expects `string | { dark: string, light: string }`.
 
 Defaults to
 
@@ -162,7 +162,7 @@ Defaults to
 
 **global.drop.border.radius**
 
-The corner radius Expects `string`.
+The corner radius. Expects `string`.
 
 Defaults to
 
@@ -182,7 +182,7 @@ undefined
 
 **global.drop.shadowSize**
 
-Elevated height of the Drop Expects `string`.
+Elevated height of the Drop. Expects `string`.
 
 Defaults to
 
@@ -192,7 +192,7 @@ small
 
 **global.drop.zIndex**
 
-The stack order of the Drop Expects `number`.
+The stack order of the Drop. Expects `number`.
 
 Defaults to
 

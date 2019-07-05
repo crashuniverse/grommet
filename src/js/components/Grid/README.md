@@ -139,7 +139,7 @@ stretch
 
 **areas**
 
-Area names and column,row coordinates.
+Area names and column, row coordinates.
 
 ```
 [{

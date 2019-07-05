@@ -56,7 +56,7 @@ undefined
 
 **tab.border**
 
-border styles of the tab Expects `object`.
+border styles of the tab. Expects `object`.
 
 Defaults to
 

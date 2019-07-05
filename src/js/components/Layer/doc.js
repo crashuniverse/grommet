@@ -62,7 +62,7 @@ export const doc = Layer => {
     ]).description(
       `The amount of margin around the Layer. An object can be specified to
 distinguish horizontal margin, vertical margin, and margin on a
-particular side of the layer`,
+particular side of the layer.`,
     ),
     modal: PropTypes.bool
       .description(
@@ -96,7 +96,7 @@ particular side of the layer`,
       .defaultValue('center'),
     responsive: PropTypes.bool
       .description(
-        'Whether the layer should take full width and height on mobile',
+        'Whether the layer should take full width and height on mobile.',
       )
       .defaultValue(true),
   };

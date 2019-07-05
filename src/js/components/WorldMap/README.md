@@ -192,7 +192,7 @@ svg
   
 **worldMap.color**
 
-The color for each individual dot when a color is not passed as a prop Expects `string`.
+The color for each individual dot when a color is not passed as a prop. Expects `string`.
 
 Defaults to
 
@@ -222,7 +222,7 @@ Defaults to
 
 **worldMap.hover.color**
 
-The color for an individual dot when it is being hovered Expects `string`.
+The color for an individual dot when it is being hovered. Expects `string`.
 
 Defaults to
 

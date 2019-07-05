@@ -12,7 +12,7 @@ export const doc = SkipLinks => {
     );
 
   DocumentedSkipLinks.propTypes = {
-    children: PropTypes.node.description('Array of SkipLink').isRequired,
+    children: PropTypes.node.description('Array of SkipLink.').isRequired,
     messages: PropTypes.shape({
       skipTo: PropTypes.string,
     }).description(

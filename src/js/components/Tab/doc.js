@@ -33,7 +33,7 @@ export const themeDoc = {
     defaultValue: undefined,
   },
   'tab.border': {
-    description: 'border styles of the tab',
+    description: 'border styles of the tab.',
     type: 'object',
     defaultValue: `{
       side: 'bottom',

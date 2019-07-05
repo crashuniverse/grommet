@@ -150,7 +150,7 @@ forward
 
 **size**
 
-Clock size Defaults to `medium`.
+Clock size. Defaults to `medium`.
 
 ```
 small
@@ -209,7 +209,7 @@ Defaults to
 
 **clock.analog.hour.shape**
 
-The shape of the hour hand Expects `string`.
+The shape of the hour hand. Expects `string`.
 
 Defaults to
 
@@ -229,7 +229,7 @@ Defaults to
 
 **clock.analog.hour.width**
 
-The thickness of the hour hand Expects `string`.
+The thickness of the hour hand. Expects `string`.
 
 Defaults to
 
@@ -279,7 +279,7 @@ Defaults to
 
 **clock.analog.second.color**
 
-The color of the seconds hand Expects `string | { dark: string, light: string }`.
+The color of the seconds hand. Expects `string | { dark: string, light: string }`.
 
 Defaults to
 
@@ -319,7 +319,7 @@ Defaults to
 
 **clock.analog.size.medium**
 
-The whole size of the Analog clock Expects `string`.
+The whole size of the Analog clock. Expects `string`.
 
 Defaults to
 

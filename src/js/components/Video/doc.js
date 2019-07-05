@@ -43,7 +43,7 @@ export const themeDoc = {
     defaultValue: '6px',
   },
   'video.captions.background': {
-    description: 'The caption background color of the video ',
+    description: 'The caption background color of the video.',
     type: 'string',
     defaultValue: 'rgba(0, 0, 0, 0.7)',
   },

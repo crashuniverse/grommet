@@ -59,7 +59,7 @@ is too long to all fit.`,
     weight: PropTypes.oneOfType([
       PropTypes.oneOf(['normal', 'bold']),
       PropTypes.number,
-    ]).description('Font weight'),
+    ]).description('Font weight.'),
     wordBreak: PropTypes.oneOf([
       'normal',
       'break-all',

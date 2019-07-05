@@ -5,7 +5,7 @@ import { colorPropType, genericProps, getAvailableAtBadge } from '../../utils';
 export const themeDoc = {
   'worldMap.color': {
     description:
-      'The color for each individual dot when a color is not passed as a prop',
+      'The color for each individual dot when a color is not passed as a prop.',
     type: 'string',
     defaultValue: 'light-3',
   },
@@ -22,7 +22,7 @@ export const themeDoc = {
     defaultValue: '6px',
   },
   'worldMap.hover.color': {
-    description: 'The color for an individual dot when it is being hovered',
+    description: 'The color for an individual dot when it is being hovered.',
     type: 'string',
     defaultValue: 'light-4',
   },
@@ -54,7 +54,7 @@ export const doc = WorldMap => {
 
   DocumentedWorldMap.propTypes = {
     ...genericProps,
-    color: colorPropType.description('Default color'),
+    color: colorPropType.description('Default color.'),
     continents: PropTypes.arrayOf(
       PropTypes.shape({
         color: colorPropType,

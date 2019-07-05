@@ -128,7 +128,7 @@ An array of two numbers indicating the limits on
 
 **date**
 
-The selected date in ISO8601 format
+The selected date in ISO8601 format.
 
 ```
 string

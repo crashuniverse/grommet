@@ -1229,7 +1229,7 @@ Defaults to
 
 **global.colors.border**
 
-The color of the border Expects \`string | { dark: string, light: string }\`.
+The color of the border. Expects \`string | { dark: string, light: string }\`.
 
 Defaults to
 
@@ -1950,7 +1950,7 @@ An array of two numbers indicating the limits on
 
 **date**
 
-The selected date in ISO8601 format
+The selected date in ISO8601 format.
 
 \`\`\`
 string
@@ -3312,7 +3312,7 @@ forward
 
 **size**
 
-Clock size Defaults to \`medium\`.
+Clock size. Defaults to \`medium\`.
 
 \`\`\`
 small
@@ -3371,7 +3371,7 @@ Defaults to
 
 **clock.analog.hour.shape**
 
-The shape of the hour hand Expects \`string\`.
+The shape of the hour hand. Expects \`string\`.
 
 Defaults to
 
@@ -3391,7 +3391,7 @@ Defaults to
 
 **clock.analog.hour.width**
 
-The thickness of the hour hand Expects \`string\`.
+The thickness of the hour hand. Expects \`string\`.
 
 Defaults to
 
@@ -3441,7 +3441,7 @@ Defaults to
 
 **clock.analog.second.color**
 
-The color of the seconds hand Expects \`string | { dark: string, light: string }\`.
+The color of the seconds hand. Expects \`string | { dark: string, light: string }\`.
 
 Defaults to
 
@@ -3481,7 +3481,7 @@ Defaults to
 
 **clock.analog.size.medium**
 
-The whole size of the Analog clock Expects \`string\`.
+The whole size of the Analog clock. Expects \`string\`.
 
 Defaults to
 
@@ -4345,7 +4345,7 @@ string
 
 **plain**
 
-Whether the drop element should have no background nor shadow
+Whether the drop element should have no background nor shadow.
 
 \`\`\`
 boolean
@@ -4360,7 +4360,7 @@ div
   
 **drop.maxHeight**
 
-The max height of the Drop container Expects \`string\`.
+The max height of the Drop container. Expects \`string\`.
 
 Defaults to
 
@@ -4370,7 +4370,7 @@ undefined
 
 **global.drop.background**
 
-The background color of Drop Expects \`string | { dark: string, light: string }\`.
+The background color of Drop. Expects \`string | { dark: string, light: string }\`.
 
 Defaults to
 
@@ -4380,7 +4380,7 @@ Defaults to
 
 **global.drop.border.radius**
 
-The corner radius Expects \`string\`.
+The corner radius. Expects \`string\`.
 
 Defaults to
 
@@ -4400,7 +4400,7 @@ undefined
 
 **global.drop.shadowSize**
 
-Elevated height of the Drop Expects \`string\`.
+Elevated height of the Drop. Expects \`string\`.
 
 Defaults to
 
@@ -4410,7 +4410,7 @@ small
 
 **global.drop.zIndex**
 
-The stack order of the Drop Expects \`number\`.
+The stack order of the Drop. Expects \`number\`.
 
 Defaults to
 
@@ -4591,7 +4591,7 @@ object
 
 **onClose**
 
-Callback for when the drop is closed
+Callback for when the drop is closed.
 
 \`\`\`
 function
@@ -4599,7 +4599,7 @@ function
 
 **onOpen**
 
-Callback for when the drop is opened
+Callback for when the drop is opened.
 
 \`\`\`
 function
@@ -5084,7 +5084,7 @@ stretch
 
 **areas**
 
-Area names and column,row coordinates.
+Area names and column, row coordinates.
 
 \`\`\`
 [{
@@ -5435,7 +5435,7 @@ undefined
 
 **global.font.face**
 
-Custom font face declaration Expects \`string | (props) => {}\`.
+Custom font face declaration. Expects \`string | (props) => {}\`.
 
 Defaults to
 
@@ -5637,7 +5637,7 @@ h1,h2,h3,h4
   
 **global.breakpoints**
 
-The possible breakpoints that could affect font-size and max-width Expects \`object\`.
+The possible breakpoints that could affect font-size and max-width. Expects \`object\`.
 
 Defaults to
 
@@ -6179,7 +6179,7 @@ horizontal
 
 The amount of margin around the Layer. An object can be specified to
 distinguish horizontal margin, vertical margin, and margin on a
-particular side of the layer Defaults to \`none\`.
+particular side of the layer. Defaults to \`none\`.
 
 \`\`\`
 none
@@ -6286,7 +6286,7 @@ top-right
 
 **responsive**
 
-Whether the layer should take full width and height on mobile Defaults to \`true\`.
+Whether the layer should take full width and height on mobile. Defaults to \`true\`.
 
 \`\`\`
 boolean
@@ -6430,7 +6430,7 @@ import { Markdown } from 'grommet';
 
 Custom components and props to override html elements such as 'img'
       or 'pre'. By default 'a', 'p', 'img', and table elements are overriden
-      with grommet components
+      with grommet components.
 
 \`\`\`
 {
@@ -6749,7 +6749,7 @@ one of top or bottom should be specified. Defaults to \`{
 
 **dropBackground**
 
-Background color when drop is active
+Background color when drop is active.
 
 \`\`\`
 string
@@ -6838,7 +6838,7 @@ Custom messages. Used for accessibility by screen readers. Defaults to \`{
 
 **open**
 
-Whether the state of the component should be open
+Whether the state of the component should be open.
 
 \`\`\`
 boolean
@@ -7033,7 +7033,7 @@ string
 
 **round**
 
-Whether to round the line ends
+Whether to round the line ends.
 
 \`\`\`
 boolean
@@ -8555,7 +8555,7 @@ import { SkipLinks } from 'grommet';
 
 **children**
 
-Required. Array of SkipLink
+Required. Array of SkipLink.
 
 \`\`\`
 node
@@ -8809,7 +8809,7 @@ undefined
 
 **tab.border**
 
-border styles of the tab Expects \`object\`.
+border styles of the tab. Expects \`object\`.
 
 Defaults to
 
@@ -9823,7 +9823,7 @@ boolean
 
 **weight**
 
-Font weight
+Font weight.
 
 \`\`\`
 normal
@@ -10714,7 +10714,7 @@ Defaults to
 
 **video.captions.background**
 
-The caption background color of the video  Expects \`string\`.
+The caption background color of the video. Expects \`string\`.
 
 Defaults to
 
@@ -10936,7 +10936,7 @@ svg
   
 **worldMap.color**
 
-The color for each individual dot when a color is not passed as a prop Expects \`string\`.
+The color for each individual dot when a color is not passed as a prop. Expects \`string\`.
 
 Defaults to
 
@@ -10966,7 +10966,7 @@ Defaults to
 
 **worldMap.hover.color**
 
-The color for an individual dot when it is being hovered Expects \`string\`.
+The color for an individual dot when it is being hovered. Expects \`string\`.
 
 Defaults to
 

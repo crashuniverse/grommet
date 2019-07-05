@@ -43,8 +43,10 @@ export const doc = DropButton => {
       aligned to the DropButton itself by default.`,
     ),
     dropProps: PropTypes.object.description('Any valid Drop prop.'),
-    onClose: PropTypes.func.description('Callback for when the drop is closed'),
-    onOpen: PropTypes.func.description('Callback for when the drop is opened'),
+    onClose: PropTypes.func.description(
+      'Callback for when the drop is closed.',
+    ),
+    onOpen: PropTypes.func.description('Callback for when the drop is opened.'),
     open: PropTypes.bool
       .description(
         `Whether the drop should be open or not. Setting this property does not

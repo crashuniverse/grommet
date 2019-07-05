@@ -51,7 +51,7 @@ one of top or bottom should be specified.`,
           PropTypes.oneOf(['weak', 'medium', 'strong']),
         ]),
       }),
-    ]).description('Background color when drop is active'),
+    ]).description('Background color when drop is active.'),
     dropTarget: PropTypes.object.description(
       `Target where the drop will be aligned to. This should be
       a React reference. Typically, this is not required as the drop will be
@@ -85,7 +85,7 @@ The object values can be any Button prop, for example: label and onClick.`,
       .description('Custom messages. Used for accessibility by screen readers.')
       .defaultValue({ openMenu: 'Open Menu', closeMenu: 'Close Menu' }),
     open: PropTypes.bool
-      .description('Whether the state of the component should be open')
+      .description('Whether the state of the component should be open.')
       .defaultValue(false),
     size: PropTypes.oneOfType([
       PropTypes.oneOf(['small', 'medium', 'large', 'xlarge']),

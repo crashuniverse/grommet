@@ -151,7 +151,7 @@ one of top or bottom should be specified. Defaults to `{
 
 **dropBackground**
 
-Background color when drop is active
+Background color when drop is active.
 
 ```
 string
@@ -240,7 +240,7 @@ Custom messages. Used for accessibility by screen readers. Defaults to `{
 
 **open**
 
-Whether the state of the component should be open
+Whether the state of the component should be open.
 
 ```
 boolean
