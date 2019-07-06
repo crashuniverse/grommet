@@ -22,8 +22,19 @@ class RadioButtonGroup extends Component {
 
   optionRefs = [];
 
-  valueIndex = () => {
-    const { options, value } = this.state;
+  componentDidUpdate(prevProps, prevState) {
+    const { focus, options, value } = this.state;
+    if (
+      focus &&
+      value &&
+      (prevState.value !== value || prevState.focus !== focus)
+    ) {
+      const valueIndex = this.valueIndex(options, value);
+      this.optionRefs[valueIndex].focus();
+    }
+  }
+
+  valueIndex = (options, value) => {
     let result;
     options.some((option, index) => {
       if (option.value === value) {
@@ -37,8 +48,8 @@ class RadioButtonGroup extends Component {
 
   onNext = () => {
     const { onChange } = this.props;
-    const { options } = this.state;
-    const valueIndex = this.valueIndex();
+    const { options, value } = this.state;
+    const valueIndex = this.valueIndex(options, value);
     if (valueIndex !== undefined && valueIndex < options.length - 1) {
       const nextIndex = valueIndex + 1;
       const nextValue = options[nextIndex].value;
@@ -53,8 +64,8 @@ class RadioButtonGroup extends Component {
 
   onPrevious = () => {
     const { onChange } = this.props;
-    const { options } = this.state;
-    const valueIndex = this.valueIndex();
+    const { options, value } = this.state;
+    const valueIndex = this.valueIndex(options, value);
     if (valueIndex > 0) {
       const nextIndex = valueIndex - 1;
       const nextValue = options[nextIndex].value;
@@ -72,18 +83,22 @@ class RadioButtonGroup extends Component {
     // Chrome behaves differently in that focus is given to radio buttons
     // when the user selects one, unlike Safari and Firefox.
     setTimeout(() => {
-      const { focus } = this.state;
-      if (!focus) {
-        this.setState({ focus: true });
-      }
+      this.setState(state => {
+        if (!state.focus) {
+          return { focus: true };
+        }
+        return null;
+      });
     }, 1);
   };
 
   onBlur = () => {
-    const { focus } = this.state;
-    if (focus) {
-      this.setState({ focus: false });
-    }
+    this.setState(state => {
+      if (state.focus) {
+        return { focus: false };
+      }
+      return null;
+    });
   };
 
   render() {
